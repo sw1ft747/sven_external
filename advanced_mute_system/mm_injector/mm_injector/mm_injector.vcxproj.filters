@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Manual Map Injector">
+      <UniqueIdentifier>{e3c763f1-8ea8-4b10-9e83-97c983fbd8f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manual Map Injector\ini-parser">
+      <UniqueIdentifier>{041c9458-69f7-4f6a-8e61-2d60bca1c2bd}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="injector.cpp">
+      <Filter>Manual Map Injector</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Manual Map Injector</Filter>
+    </ClCompile>
+    <ClCompile Include="ini-parser\ini_parser.c">
+      <Filter>Manual Map Injector\ini-parser</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="injector.h">
+      <Filter>Manual Map Injector</Filter>
+    </ClInclude>
+    <ClInclude Include="ini-parser\ini_parser.h">
+      <Filter>Manual Map Injector\ini-parser</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

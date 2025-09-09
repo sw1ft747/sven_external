@@ -1,0 +1,8 @@
+﻿  ini_parser.c
+  injector.cpp
+  main.cpp
+  Generating code
+  Previous IPDB not found, fall back to full compilation.
+  All 177 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  mm_injector.vcxproj -> E:\Projects\C++\advanced_mute_system\Release\mm_injector.exe
